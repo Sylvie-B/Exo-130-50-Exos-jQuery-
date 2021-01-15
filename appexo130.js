@@ -32,3 +32,8 @@ $('#message').keyup(function () {
     }
 })
 
+$('#bold > p').each(function (index){
+    let word = $('p').text().trim().split(" ", 1);
+    console.log(word);
+})
+
